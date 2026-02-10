@@ -36,6 +36,17 @@ app.use((req, res, next) => {
 });
 
 // Routes
+app.get('/', (req, res) => {
+  res.json({
+    message: "University Qualifier API",
+    endpoints: {
+      health: "GET /health",
+      bfhl: "POST /bfhl"
+    },
+    status: "running"
+  });
+});
+
 app.use('/health', healthRoutes);
 app.use('/bfhl', bfhlRoutes);
 
