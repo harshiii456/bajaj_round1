@@ -1,0 +1,21 @@
+{
+  "name": "bjaj_round1",
+  "version": "1.0.0",
+  "description": "Production-ready REST API for university qualifier exam with Node.js and Express.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.1.0",
+    "nodemon": "^3.1.11"
+  }
+}
